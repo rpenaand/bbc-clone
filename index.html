@@ -8,27 +8,26 @@
     <meta http-equiv="x-ua-compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BBC Website</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a>Logo</a>
-        <ul>
-          <li>
-            <a href="#"><i>👩‍🦰</i> Sign in</a>
-          </li>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">News</a></li>
-          <li><a href="#">Sports</a></li>
-          <li><a href="#">Reel</a></li>
-          <li><a href="#">Worklife</a></li>
-          <li><a href="#">Travel</a></li>
-          <li><a href="#">Future</a></li>
-          <li><a href="#">Culture</a></li>
-          <li>
-            <a href="#">
+    <header >
+      <nav class="nav clearfix container"">
+        <a href="#" class="Logo">BBC</a>
+        <a href="#" class="signin"><i>👩‍🦰</i> Sign in</a>
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">News</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Sports</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Reel</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Worklife</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Travel</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Future</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Culture</a></li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">
               More <i>🔽</i>
-              <ul>
+              <ul class="nav__list--sub">
                 <li><a>Sub menu</a></li>
                 <li><a>Sub menu</a></li>
                 <li><a>Sub menu</a></li>
@@ -36,51 +35,51 @@
               </ul>
             </a>
           </li>
-          <li>
-            <input type="text" placeholder="Search" />
-            <i>🔍</i>
-          </li>
         </ul>
+        <form action="">
+          <input type="text" placeholder="Search" />
+          <i>🔍</i>
+        </form>
       </nav>
     </header>
-    <main>
-      <section>
-        <div>
+    <main class="container">
+      <section class="featured-content clearfix margin-bottom-medium">
+        <div class="welcome-message clearfix margin-bottom-medium">
           <h1>Welcome to BBC.com</h1>
           <span>Thursday, 13 August</span>
         </div>
-        <ul>
-          <li>
+        <section >
             <h2>Israel and UAE strike historic peace deal</h2>
             <p>
               Isreal and the UAE to normalise relations, making the third
               Isreal-Arab peace deal
             </p>
             <span>MIDDLE EAST</span>
-          </li>
-          <li>
+            </section>
+        <section class="col-2">
+          <section class="margin-bottom-medium">
             <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
             <span>Canada</span>
-          </li>
-          <li>
+          </section>
+          <section class="margin-bottom-medium">
             <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
             <span>Canada</span>
-          </li>
-          <li>
+          </section>
+          <section class="margin-bottom-medium">
             <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
             <span>Canada</span>
-          </li>
-          <li>
+          </section>
+          <section class="margin-bottom-medium">
             <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
             <span>Canada</span>
-          </li>
-        </ul>
+          </section>
+        </section>
       </section>
       <section>
         <h2>News</h2>
-        <ul>
+        <ul class="blog">
           <li>
-            <img src="" alt="" />
+            <img src="" alt="Image" />
             <h3>Lorem ipsum dolor sit amet consectetur adipisicing el</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
@@ -89,7 +88,7 @@
             <span>lorem ipsum</span>
           </li>
           <li>
-            <img src="" alt="" />
+            <img src="" alt="Image" />
             <h3>Lorem ipsum dolor sit amet consectetur adipisicing el</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
@@ -98,7 +97,7 @@
             <span>lorem ipsum</span>
           </li>
           <li>
-            <img src="" alt="" />
+            <img src="" alt="Image" />
             <h3>Lorem ipsum dolor sit amet consectetur adipisicing el</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
